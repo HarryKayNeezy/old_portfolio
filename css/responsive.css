@@ -3,6 +3,10 @@
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 0;
+    }
+   
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
@@ -28,9 +32,18 @@
 
 }
 
+/* if the viewport is equal to 480px or less than that */ 
+@media only screen and (max-width: 480px){
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 0;
+    }
+   
+}
 
-/* if the viewport is equal to 340px or less than that */ 
+
+/* if the viewport is equal to 792px or less than that */ 
 @media only screen and (max-width: 792px){
+
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
@@ -72,6 +85,7 @@
         padding: 1rem;
     }
 
+    
     .container{
         max-width: 90%;
     }
